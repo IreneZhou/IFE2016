@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #dedede;
+	font-family:"Microsoft YaHei";
+}
+
+
+/**************  header ****************/
+
+header {
+	background-color: #333333;
+	height: 60px;
+}
+
+header img {
+	width: 120px;
+	height: 60px;
+	padding-left: 20px;
+} 
+
+nav {
+	float: right;
+}
+
+nav {
+	padding-right: 20px;
+}
+
+nav ul {
+	list-style-type: disc; 
+}
+
+nav ul li {
+	display: inline;
+	line-height: 60px;
+	width: 100px;
+	margin-left: 5px;
+}
+
+nav ul li:before {
+	content: "•";
+	margin-right: 5px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+nav ul li a:hover {
+	color: #808A90;
+}
+
+
+/************  article ***************/
+
+article, aside {
+	background-color: white;
+	box-shadow: 3px 3px rgba(0,0,0,0.30);
+	padding: 30px 20px;
+	margin: 20px 20px;
+}
+
+article h1 {
+	font-size: 21px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	padding-bottom: 10px; 
+}
+
+article h2 {
+	color: #5e6563;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+article h3 {
+	font-size: 12px;
+	color: #5e6563;
+	margin: 5px 0px 5px 0px;
+}
+
+article ul {
+	list-style-type: none;
+	text-indent: 2em;
+}
+
+article p {
+	font-size: 13px;
+	line-height: 180%;
+	text-indent: 2em;
+}
+
+article ol {
+	margin-left: 2em;
+	padding: 10px;
+}
+
+#no-indent {
+	text-indent: 0px;
+}
+
+
+/***************** images ****************/
+
+article img {	
+	padding: 10px 0px 10px 0px;
+}
+
+article figure figcaption {
+	font-size: 12px;
+}
+
+#frame {
+	text-align: center;
+	width: 150px;
+	height: 180px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 15px 15px 15px 40px;
+}
+
+
+
+/***************** table *******************/
+
+article table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+}
+
+article table th {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+article table th, td {
+	padding: 3px;
+}
+
+article table tr:last-child {
+	border: transparent;
+	background-color: #bbb;
+	font-weight: bold;
+}
+
+/******************* aside *******************/
+
+
+aside .aside-title {
+	font-size: 16px;
+	font-weight: bold;
+	border-left: solid 3px #bbb; 
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+form {
+    font-size: 12px;
+}
+
+form input {
+	margin: 5px;
+	height: 20px;
+}
+
+#form_1 {
+	width: 45%;
+	text-align: right;
+	line-height: 20px;
+}
+
+#description {
+	color: #bbb;
+	margin-right: 11px;
+}
+
+#description2 {
+	color: #bbb;
+	margin-right: 10px;
+}
+
+#form_2 {
+	position: relative;
+	left: 360px;
+}
+
+form label {
+	margin-right: 5px;
+}
+
+#form_3 {
+	position: relative;
+	left: 340px;
+}
+
+#form_3 textarea {
+	width: 62%;
+	height: 80px;
+	vertical-align: text-top;  /* 使左边的文字与textarea上部对齐*/
+}
+
+#submit {
+	margin-top: 10px;
+	border: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: #3355d0;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+}
+
+
+/******************  footer *****************/
+
+footer {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	font-size: 11px;
+}
+
+
