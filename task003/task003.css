@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    margin: 0px;
+}
+
+#container, #team, #album, #intro {
+	background-color: white;
+	border: 1px solid #999;
+	padding: 20px;
+}
+
+#container {
+	background-color: #eee;
+    overflow: auto;
+    zoom: 1;
+}
+
+#team {
+	width: 200px;
+	float: left;
+}
+
+#team img {
+	vertical-align: text-top;
+}
+
+#name {
+	margin-left: 10px;
+}
+
+#album {
+	float: right;
+	width: 120px;
+}
+
+#intro {
+	margin-left: 220px;
+	margin-right: 140px;
+	min-width: 140px;
+}
