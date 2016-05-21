@@ -6,3 +6,5 @@
 
 任务二：零基础HTTML及CSS编码（一）   [描述](http://ife.baidu.com/task/detail?taskId=2)   [预览](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task002/task002.html)
 
+任务三：三栏式布局    [描述](http://ife.baidu.com/task/detail?taskId=3)    [预览](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task003/task003.html)
+
