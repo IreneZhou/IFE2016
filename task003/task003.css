@@ -19,6 +19,7 @@ body {
 	background-color: #eee;
     overflow: auto;
     zoom: 1;
+    min-width: 600px;
 }
 
 #team {
@@ -42,5 +43,4 @@ body {
 #intro {
 	margin-left: 220px;
 	margin-right: 140px;
-	min-width: 140px;
 }
