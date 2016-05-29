@@ -1,0 +1,327 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       		box-sizing: border-box;
+}
+
+body {
+	background-color: #dedede;
+	font-family: "Microsoft YaHei";
+}
+
+.newspaper {
+	background-color: #fff;
+	height: 1386px;
+	width: 980px;
+	padding: 0 44px 61px 44px;
+}
+
+/***************** header *****************/
+
+header {
+	height: 63px;
+	width: 892px;
+	border-bottom: 2px solid #938e8c; 
+}
+
+#block {
+	height: 61px;
+	width: 110px;
+	background-color: #d35e5f;
+	display: inline-block;
+}
+
+#url {
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	font-family: "SimHei";
+	margin-top: 42px;
+	margin-left: 8px;
+}
+
+#date {
+	float: right;
+	color: #d35e5f;
+	font-size: 12px;
+	font-family: "SimHei";
+	margin-top: 42px;
+}
+
+
+/************** mid ********************/
+
+.mid {
+	margin: 44px 44px 44px 0px; 
+	width: 892px;
+	height: 301px;
+}
+
+figure {
+	display: inline-block;
+}
+
+#left-cover, #right-cover {
+	height: 301px;
+	width: 191px;
+	opacity: 0.5;
+	position: absolute;
+	top: 107px;
+}
+
+#left-cover {
+	background-color: #93b295;
+}
+
+#right-cover {
+	background-color: #ceb7c8;
+	left: 494px;
+}
+
+
+/************** aside *******************/
+
+aside {
+	width: 203px;
+	height: 301px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 43px;
+}
+
+.aside-title {
+	border-top: 2px solid #cc8091;
+	font-size: 24px;
+	color: #000;
+	text-decoration: underline;
+	line-height: 40px;
+	font-family: "Microsoft YaHei";
+}
+
+#italic {
+	font-size: 12px;
+	color: #676767;
+	line-height: 10px;
+	font-family: "KaiTi";
+}
+
+#big {
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "Microsoft YaHei";
+	font-style: oblique;
+	margin-left: -17px;
+}
+
+.semi-aside {
+	width: 203px;
+	position: relative;
+}
+
+#medium {
+	font-size: 55px;
+	color: #cc8091;
+	display: inline-block;
+	margin-top: -13px;
+}
+
+#small {
+	font-size: 18px;
+	color: #cc8091;
+	position: absolute;
+	bottom: 22px;
+	right: 89px;
+}
+
+#xsmall {
+	display: inline-block;
+	font-size: 12px;
+	color: #ccc;
+}
+
+
+
+/***************** description ******************/
+.description {
+	width: 641px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+
+.description article {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.What {
+	width: 225px;
+}
+
+.When {
+	width: 200px;
+}
+
+.How {
+	width: 130px;
+}
+
+.description article p {
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+	font-family: "SimSun";
+	margin-top: 10px;
+}
+
+.description article span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#green {
+	color: #418c59;
+}
+
+#orange {
+	color: #d2994f;
+}
+
+#pink {
+	color: #cc7680;
+}
+
+#no-padding {
+	padding: 0;
+}
+
+#top-part {
+	margin-bottom: 10px;
+}
+
+#bottom-part {
+	line-height: 16px;
+	margin-top: 10px;
+}
+
+#bottom-part p {
+	display: inline-block;
+	margin: 2px;
+	padding: 0px;
+}
+
+#ratio {
+	font-size: 12px;
+	color: #cd4a47;
+	opacity: 0.7;
+	font-style: oblique;
+}
+
+/******************** report *******************/
+
+.report {
+	border: 1px solid black;
+	width: 892px;
+	height: 610px;
+	/*display: inline-block;*/
+	/*overflow: auto;*/
+}
+
+.report > article {
+	width: 410px;
+	height: 610px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+#report-title {
+	height: 155px;
+}
+
+#report-title {
+	font-size: 30px;
+	color: #11456b;
+	font-family: "Hiragino Sans GB";
+	font-weight: bold;
+	line-height: 35px;
+}
+
+#report-title :first-child span {
+	font-size: 72px;
+	color: #f5e327;
+	font-style: oblique;
+}
+
+
+#report-title :last-child {
+	font-size: 33px;
+	line-height: 50px;
+}
+
+.report > article > p {
+	font-size: 12px;
+	color: #767777;
+	font-family: "SimSun";
+	line-height: 16px;
+}
+
+
+.drop-cap:first-letter {
+	color: #f5e327;
+	font-family: "Microsoft YaHei";
+	font-size: 70px;
+	margin-top: 100px;
+}
+
+
+/***************** lower right *****************/
+
+.lower-right {
+	width: 275px;
+	height: 610px;
+	display: inline-block;
+	position: relative;
+}
+
+.lower-right img {
+	vertical-align: text-top;
+	
+}
+
+#cover-bottom {
+	width: 458px;
+	height: 61px;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+	top: 203px;
+}
+
+#cover-bottom :first-child {
+	font-size: 24px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	border-left: 3px solid #72b16a;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#cover-bottom :last-child { 
+	font-size: 12px;
+	color: #72b16a;
+	font-style: oblique;
+	line-height: 140px;
+}
+
+#article3 {
+	background-color: #EEEDD7;
+	width: 459px;
+	height: 318px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 36px;
+}
