@@ -42,7 +42,7 @@ header {
 	margin-left: 8px;
 }
 
-#date {
+time {
 	float: right;
 	color: #d35e5f;
 	font-size: 12px;
@@ -61,23 +61,29 @@ header {
 
 figure {
 	display: inline-block;
+	position: relative;
 }
 
-#left-cover, #right-cover {
+
+#left-cover {
+	background-color: #93b295;
 	height: 301px;
 	width: 191px;
 	opacity: 0.5;
 	position: absolute;
-	top: 107px;
-}
-
-#left-cover {
-	background-color: #93b295;
+	top: 0;
+	left: 0
 }
 
 #right-cover {
-	background-color: #ceb7c8;
-	left: 494px;
+	background-color: #93b295;
+	height: 301px;
+	width: 191px;
+	opacity: 0.5;
+	position: absolute;
+	background-color: #D35E5F;
+	top: 0;
+	right: 0;
 }
 
 
@@ -180,6 +186,7 @@ aside {
 .description article span {
 	font-size: 16px;
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 #green {
@@ -220,25 +227,19 @@ aside {
 	font-style: oblique;
 }
 
-/******************** report *******************/
 
+/******************** report *******************/
+/******************* lower left ***************/
 .report {
-	border: 1px solid black;
 	width: 892px;
 	height: 610px;
-	/*display: inline-block;*/
-	/*overflow: auto;*/
 }
 
 .report > article {
-	width: 410px;
+	width: 405px;
 	height: 610px;
-	border: 1px solid black;
 	display: inline-block;
-}
-
-#report-title {
-	height: 155px;
+	vertical-align: top;
 }
 
 #report-title {
@@ -247,12 +248,16 @@ aside {
 	font-family: "Hiragino Sans GB";
 	font-weight: bold;
 	line-height: 35px;
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 #report-title :first-child span {
-	font-size: 72px;
+	font-size: 65px;
 	color: #f5e327;
 	font-style: oblique;
+	margin-right: 6px;
 }
 
 
@@ -265,30 +270,36 @@ aside {
 	font-size: 12px;
 	color: #767777;
 	font-family: "SimSun";
-	line-height: 16px;
+	line-height: 18px;
 }
 
-
-.drop-cap:first-letter {
+.drop-cap {
 	color: #f5e327;
 	font-family: "Microsoft YaHei";
 	font-size: 70px;
-	margin-top: 100px;
+	float: left;
+	line-height: 70px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
+#in-para-pic {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.indent {
+	text-indent: 2em;
+}
 
 /***************** lower right *****************/
 
 .lower-right {
-	width: 275px;
+	width: 458px;
 	height: 610px;
 	display: inline-block;
+	margin-left: 20px;
 	position: relative;
-}
-
-.lower-right img {
-	vertical-align: text-top;
-	
 }
 
 #cover-bottom {
@@ -297,7 +308,7 @@ aside {
 	background-color: black;
 	opacity: 0.7;
 	position: absolute;
-	top: 203px;
+	top: 214px;
 }
 
 #cover-bottom :first-child {
@@ -306,7 +317,8 @@ aside {
 	font-family: "Microsoft YaHei";
 	border-left: 3px solid #72b16a;
 	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 61px;
+	margin-left: 40px;
 }
 
 
@@ -314,14 +326,107 @@ aside {
 	font-size: 12px;
 	color: #72b16a;
 	font-style: oblique;
-	line-height: 140px;
+	margin-left: 10px;
 }
 
-#article3 {
-	background-color: #EEEDD7;
-	width: 459px;
-	height: 318px;
-	text-align: left;
-	font-size: 16px;
-	line-height: 36px;
+.yellow-block {
+	height: 319px;
+	width: 458px;
+	background-color: #EEEED7;
+	margin-top: 30px;
+	padding-top: 30px;
+	position: relative;
 }
+
+.yellow-block ul {
+	font-size: 16px;
+	color: #5b5b5b;
+	font-family: "SimSun";
+	text-align: left;
+	line-height: 30px;
+	margin-left: 50px;
+}
+
+#red {
+	background-color: #D35E5F;
+	width: 260px;
+	height: 160px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}
+
+#zero {
+	float: left;
+	font-size: 110px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 86px;
+	margin: 35px 10px;
+	border-right: 2px solid #fff;
+}
+
+#number {
+	font-size: 18px;
+	font-family: "SimHei";
+	font-style: oblique;
+	color: #fff;
+	line-height: 24px;
+	margin-top: 35px;
+	margin-right: 5px;
+}
+
+#hello {
+	color: #fff;
+	font-size: 12px;
+	font-family: "SimHei";
+	line-height: 18px;
+	margin-right: 10px;
+}
+
+#quote {
+	width: 160px;
+	height: 158px;
+	font-size: 14px;
+	color: #5b5b5b;
+	font-style: oblique;
+	line-height: 25px;
+	text-indent: 3em;
+	margin-right: 20px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+#left-quote {
+	font-size: 72px;
+	color: #d45d5c;
+	position: absolute;
+	right: 140px;
+	top:15px;
+}
+
+#right-quote {
+	font-size: 72px;
+	color: #d45d5c;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+
+
+/****************** footer *******************/
+footer {
+	margin-top: 60px;
+	border-top: 1px solid #938e8c;
+}
+
+footer span {
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: "SimHei";
+	float: right;
+}
+
