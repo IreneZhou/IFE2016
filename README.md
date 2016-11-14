@@ -28,3 +28,4 @@
 
 [任务十五：零基础JavaScript编码（三）](http://ife.baidu.com/task/detail?taskId=15)	 				    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task015/task015.html)
 
+[任务十六：零基础JavaScript编码（四）](http://ife.baidu.com/task/detail?taskId=16)	 				    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task016/task016.html)
