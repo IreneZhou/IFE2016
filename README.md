@@ -22,9 +22,9 @@
 
 #### 第二阶段任务
 
-[任务十三：零基础JavaScript编码（一)](http://ife.baidu.com/task/detail?taskId=13)     					    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/master/task0013/task0013.html)
+[任务十三：零基础JavaScript编码（一)](http://ife.baidu.com/task/detail?taskId=13)      					    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task013/task013.html)
 
-[任务十四：零基础JavaScript编码（二）](http://ife.baidu.com/task/detail?taskId=14) 					    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/master/task0014/task0014.html)	                                   
+[任务十四：零基础JavaScript编码（二）](http://ife.baidu.com/task/detail?taskId=14) 					    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task014/task014.html)	                                   
 
-[任务十五：零基础JavaScript编码（三）](http://ife.baidu.com/task/detail?taskId=15)	 				    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/master/task0015/task0015.html)
+[任务十五：零基础JavaScript编码（三）](http://ife.baidu.com/task/detail?taskId=15)	 				    [preview](http://htmlpreview.github.io/?https://github.com/IreneZhou/IFE2016/blob/master/task015/task015.html)
 
